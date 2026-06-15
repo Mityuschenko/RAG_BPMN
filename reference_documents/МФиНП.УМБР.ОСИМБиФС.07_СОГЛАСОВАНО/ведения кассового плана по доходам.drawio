@@ -1,0 +1,208 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36">
+  <diagram id="boiwFP24xGIeJvm02ARj" name="Страница-1">
+    <mxGraphModel dx="1438" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SXaTuGZW_m0E8PbyALq--1" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" value="ОСИМБиФС" vertex="1">
+          <mxGeometry height="680" width="1970" x="270" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="SXaTuGZW_m0E8PbyALq--109" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#cdeb8b;strokeColor=#36393d;" value="Предложение ГАД&lt;div&gt;в КП по доходам&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SXaTuGZW_m0E8PbyALq--111" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Поступило предложение на изменения КП по доходам в Web-исполнении" vertex="1">
+          <mxGeometry height="80" width="140" x="180" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="SXaTuGZW_m0E8PbyALq--112" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Проверить поступившее предложение на изменения кассового плана по доходам" vertex="1">
+          <mxGeometry height="80" width="190" x="390" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-6" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="226" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-7" parent="SXaTuGZW_m0E8PbyALq--1" style="shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" value="Предложение&lt;div&gt;в КП по доходам&lt;/div&gt;&lt;div&gt;в части налоговых&amp;nbsp;&lt;/div&gt;&lt;div&gt;и неналоговых&lt;/div&gt;&lt;div&gt;доходов&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="40" x="325" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-9" parent="SXaTuGZW_m0E8PbyALq--1" style="shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" value="Предложение&lt;div&gt;в КП по доходам&lt;/div&gt;&lt;div&gt;в безвозмездных&lt;/div&gt;&lt;div&gt;поступлений&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="40" x="141" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-10" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-7" value="Предложение в части&lt;div&gt;налоговых неналоговых&lt;/div&gt;&lt;div&gt;доходов&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.4683" y="11" as="geometry">
+            <mxPoint x="-6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-11" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=12.5;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-9" value="Предложение в части&lt;div&gt;безвозмездных&amp;nbsp;&lt;/div&gt;&lt;div&gt;поступлений&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3541" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-13" parent="SXaTuGZW_m0E8PbyALq--1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" value="1. Причины и основания для&amp;nbsp;&lt;div&gt;внесения изменений в КП по доходам&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Справка об изменении поквартального&lt;/div&gt;&lt;div&gt;распределения доходов с детализацией по&lt;/div&gt;&lt;div&gt;месяцам в случае внесения изменений в&amp;nbsp;&lt;/div&gt;&lt;div&gt;части налоговых и неналоговых поступлений&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3. Иные документы, необходимые для&amp;nbsp;&lt;/div&gt;&lt;div&gt;согласования представленных изменений&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="50" x="440" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-14" parent="SXaTuGZW_m0E8PbyALq--1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" value="1. Причины и основания для&amp;nbsp;&lt;div&gt;внесения изменений в КП по доходам&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Справка об изменении поквартального&lt;/div&gt;&lt;div&gt;распределения доходов с детализацией по&lt;/div&gt;&lt;div&gt;месяцам в случае внесения изменений в&amp;nbsp;&lt;/div&gt;&lt;div&gt;части безвозмездных поступлений&lt;/div&gt;&lt;div&gt;3. Иные документы, необходимые для&amp;nbsp;&lt;/div&gt;&lt;div&gt;согласования представленных изменений&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="50" x="440" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-15" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-7" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=0;exitY=0;exitDx=40;exitDy=37.5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-13" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="470" y="292" as="sourcePoint" />
+            <mxPoint x="630" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-16" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-9" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-14" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="152" />
+            </Array>
+            <mxPoint x="150" y="102" as="sourcePoint" />
+            <mxPoint x="310" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-17" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="226" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-18" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="316.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-19" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="276" y="316.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-20" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-17" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SXaTuGZW_m0E8PbyALq--111" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="330" y="340" as="sourcePoint" />
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-21" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="SXaTuGZW_m0E8PbyALq--109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SXaTuGZW_m0E8PbyALq--111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-22" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="SXaTuGZW_m0E8PbyALq--111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SXaTuGZW_m0E8PbyALq--112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-24" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="SXaTuGZW_m0E8PbyALq--112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-25" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Внести изменения в КП по доходам" vertex="1">
+          <mxGeometry height="80" width="120" x="750" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-26" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-25" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-27" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Вернуть представленное предложение для доработки ГАД с указанием причины" vertex="1">
+          <mxGeometry height="80" width="120" x="605" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-28" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-27" value="Нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-29" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-27" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="345" />
+            </Array>
+            <mxPoint x="800" y="320" as="sourcePoint" />
+            <mxPoint x="850" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-30" parent="SXaTuGZW_m0E8PbyALq--1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" value="1. Соответствие предложенных изменений&lt;div&gt;бюджетному законодательству РФ, НПА.&lt;/div&gt;&lt;div&gt;2. Правильность применения БК РФ&lt;/div&gt;&lt;div&gt;3. Полнота и достоверность представленной&lt;/div&gt;&lt;div&gt;информации&lt;/div&gt;&lt;div&gt;4. Соответствие срока предоставления.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="50" x="680" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-31" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-23" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-30" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="540" />
+            </Array>
+            <mxPoint x="621" y="783" as="sourcePoint" />
+            <mxPoint x="920" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-23" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Предложение&lt;div&gt;прошло проверку&lt;/div&gt;&lt;div&gt;специалистом?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="640" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-32" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Утвердить изменение в системе Web-Исполнение" vertex="1">
+          <mxGeometry height="80" width="130" x="920" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-33" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-34" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;fillColor=#ffcc99;strokeColor=#36393d;" value="Утверждение&lt;div&gt;изменений&amp;nbsp;&lt;/div&gt;&lt;div&gt;в закон о бюджете&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="1200" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-36" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Создать документ в Web-Исполнении КП по доходам на снятие суммы с утвержденного изменения" vertex="1">
+          <mxGeometry height="80" width="190" x="1340" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-37" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" value="Создать документ в Web-Исполнении КП по доходам на начисление суммы утвержденного изменения" vertex="1">
+          <mxGeometry height="80" width="190" x="1570" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-38" parent="SXaTuGZW_m0E8PbyALq--1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" value="Для исключения дублирования&lt;div&gt;утвержденных бюджетных средств&lt;/div&gt;&lt;div&gt;законом о бюджете НСО&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="50" x="1570" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-39" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-36" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-38" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1435" y="330" />
+            </Array>
+            <mxPoint x="1450" y="350" as="sourcePoint" />
+            <mxPoint x="1610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-40" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-38" style="fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-37" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="340" />
+              <mxPoint x="1665" y="340" />
+            </Array>
+            <mxPoint x="1550" y="360" as="sourcePoint" />
+            <mxPoint x="1710" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-42" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-44" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#ffcccc;strokeColor=#36393d;" value="Предложения ГАД&lt;div&gt;утверждены&lt;/div&gt;&lt;div&gt;законом о бюджете НСО&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="1830" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-45" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=link;" value="Переход в процесс&lt;div&gt;утверждение закона&amp;nbsp;&lt;/div&gt;&lt;div&gt;о бюджете НСО&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="1200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-46" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-49" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-50" parent="SXaTuGZW_m0E8PbyALq--1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1090" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-51" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-52" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-53" edge="1" parent="SXaTuGZW_m0E8PbyALq--1" source="FF3A40a2LeNN5tXq-qkn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXaTuGZW_m0E8PbyALq--106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;div&gt;Ведение кассового плана по доходам&lt;/div&gt;&lt;div&gt;МФиНП.УМБР.ОСИМБиФС.07&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="1000" x="270" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SXaTuGZW_m0E8PbyALq--107" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=1" value="Используемые термины и сокращения:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;КП&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: normal;&quot;&gt; - Кассовый план&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ГАД - &lt;span style=&quot;font-weight: 400;&quot;&gt;Главный администратор доходов&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ОСИМБиФС&lt;span style=&quot;font-weight: 400;&quot;&gt; -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: 400;&quot;&gt;Отдел сопровождения исполнения местных бюджетов и федеральных средств&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;УМБР&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: 400;&quot;&gt; - Управление межбюджетного регулирования&lt;/span&gt;&lt;/div&gt;&lt;div&gt;КП - &lt;span style=&quot;font-weight: normal;&quot;&gt;кассовый план&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Web-исполнение - &lt;span style=&quot;font-weight: normal;&quot;&gt;информационно-аналитическая система ПК &quot;Web-исполнение&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;НСО - &lt;span style=&quot;font-weight: normal;&quot;&gt;Новосибирская область&lt;/span&gt;&lt;/div&gt;&lt;div&gt;БК РФ - &lt;span style=&quot;font-weight: normal;&quot;&gt;Бюджетный кодекс Российской Федерации&lt;/span&gt;&lt;/div&gt;&lt;div&gt;НПА - &lt;span style=&quot;font-weight: normal;&quot;&gt;нормативно-правовой акт&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="560" x="270" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="SXaTuGZW_m0E8PbyALq--108" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=1" value="НПА:&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Приказ МФ и НП Новосибирской области от 07.12.2017 N 69-НПА (ред. от 05.02.2026) &quot;Об утверждении Порядка составления и ведения кассового плана исполнения областного бюджета Новосибирской области&quot;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Закон Новосибирской области от 20.12.2024 N 546-ОЗ (ред. от 25.11.2025) &quot;Об областном бюджете Новосибирской области на 2025 год и плановый период 2026 и 2027 годов&quot; (принят постановлением Законодательного Собрания Новосибирской области от 19.12.2024 N 546-ЗС)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="1320" x="827" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-3" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=0;fillColor=none;whiteSpace=wrap;fontSize=16;" value="Главный администратор доходов" vertex="1">
+          <mxGeometry height="40" width="1970" x="270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FF3A40a2LeNN5tXq-qkn-4" edge="1" parent="1" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="FF3A40a2LeNN5tXq-qkn-6" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

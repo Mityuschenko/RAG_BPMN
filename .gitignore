@@ -1,0 +1,10 @@
+.env
+*.gsheet
+*.gdoc
+Project_Backup/
+*.pptx
+*.ipynb_checkpoints/
+*.ipynb.tmp
+__pycache__/
+*.pyc
+*.tmp

@@ -1,0 +1,446 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" version="29.6.3">
+  <diagram name="Страница-1" id="qvXJeOsHUvlrh0PgIXeB">
+    <mxGraphModel dx="1621" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-3" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" value="Получатель субсидии" vertex="1">
+          <mxGeometry height="370" width="5880" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-24" edge="1" parent="FiubDWQYjvcQJl2FVHAH-3" source="FiubDWQYjvcQJl2FVHAH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-5" parent="FiubDWQYjvcQJl2FVHAH-3" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;fillColor=#cdeb8b;strokeColor=#36393d;" value="Наступление отчетной даты" vertex="1">
+          <mxGeometry height="50" width="50" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-25" edge="1" parent="FiubDWQYjvcQJl2FVHAH-3" source="FiubDWQYjvcQJl2FVHAH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-6" parent="FiubDWQYjvcQJl2FVHAH-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Сформировать отчет о расходовании субсидии" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-7" parent="FiubDWQYjvcQJl2FVHAH-3" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" value="Заполнение формы из приложение № 3 к Приказу МФиНП НСО № 7-НПА от 16.01.2019" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-8" parent="FiubDWQYjvcQJl2FVHAH-3" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Какой тип получателя?" vertex="1">
+          <mxGeometry height="50" width="50" x="550" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-10" parent="FiubDWQYjvcQJl2FVHAH-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить отчет в УФиНП" vertex="1">
+          <mxGeometry height="80" width="120" x="720" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-22" parent="FiubDWQYjvcQJl2FVHAH-10" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="До 15 числа после квартала/&lt;br&gt;до 25 января текущего финансового года" vertex="1">
+          <mxGeometry height="37" width="37" x="90" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-17" parent="FiubDWQYjvcQJl2FVHAH-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить отчет в МФиНП НСО" vertex="1">
+          <mxGeometry height="80" width="120" x="720" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-23" parent="FiubDWQYjvcQJl2FVHAH-17" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="До 15 числа после квартала/&lt;br&gt;до 25 января текущего финансового года" vertex="1">
+          <mxGeometry height="37" width="37" x="90" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-18" edge="1" parent="FiubDWQYjvcQJl2FVHAH-3" source="FiubDWQYjvcQJl2FVHAH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-19" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Администрация района" vertex="1">
+          <mxGeometry relative="1" x="0.1573" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-20" edge="1" parent="FiubDWQYjvcQJl2FVHAH-3" source="FiubDWQYjvcQJl2FVHAH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-21" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Мэрия г. Новосибирск" vertex="1">
+          <mxGeometry relative="1" x="0.0788" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-106" edge="1" parent="FiubDWQYjvcQJl2FVHAH-3" source="FiubDWQYjvcQJl2FVHAH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="FiubDWQYjvcQJl2FVHAH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-1" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" value="УФиНП" vertex="1">
+          <mxGeometry height="410" width="5880" x="40" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-205" edge="1" parent="FiubDWQYjvcQJl2FVHAH-1" source="FiubDWQYjvcQJl2FVHAH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="FiubDWQYjvcQJl2FVHAH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-26" parent="FiubDWQYjvcQJl2FVHAH-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=receive;" value="Проверить отчет и соблюдение условий" vertex="1">
+          <mxGeometry height="80" width="170" x="695" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-28" parent="FiubDWQYjvcQJl2FVHAH-1" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" value="Проверка целевого расходования, соответствия условий &lt;br&gt;(п. 3.3. Соглашения)" vertex="1">
+          <mxGeometry height="60" width="160" x="770" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-33" edge="1" parent="FiubDWQYjvcQJl2FVHAH-1" source="FiubDWQYjvcQJl2FVHAH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-39" edge="1" parent="FiubDWQYjvcQJl2FVHAH-1" source="FiubDWQYjvcQJl2FVHAH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-31" parent="FiubDWQYjvcQJl2FVHAH-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Подготовить заключение о соблюдении (несоблюдении) порядка" vertex="1">
+          <mxGeometry height="80" width="170" x="949" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-32" parent="FiubDWQYjvcQJl2FVHAH-1" style="shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" value="Заключение&amp;nbsp;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;о соблюдении (несоблюдении) порядка&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="40" x="1014" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-34" edge="1" parent="FiubDWQYjvcQJl2FVHAH-1" source="FiubDWQYjvcQJl2FVHAH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-36" parent="FiubDWQYjvcQJl2FVHAH-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить письмо за подписью руководителя УФиНП посредством СЭДД" vertex="1">
+          <mxGeometry height="80" width="180" x="1190" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-41" parent="FiubDWQYjvcQJl2FVHAH-36" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="Не позднее 20 числа после квартала/&lt;br&gt;не позднее 31 января текущего финансового года" vertex="1">
+          <mxGeometry height="50" width="50" x="150" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-117" parent="FiubDWQYjvcQJl2FVHAH-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить письмо за подписью руководителя УФиНП посредством СЭДД" vertex="1">
+          <mxGeometry height="80" width="180" x="2935" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-125" edge="1" parent="FiubDWQYjvcQJl2FVHAH-1" source="FiubDWQYjvcQJl2FVHAH-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-123" parent="FiubDWQYjvcQJl2FVHAH-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=receive;" value="Подготовить письмо в адрес МФиНП о уточнении заключения" vertex="1">
+          <mxGeometry height="80" width="180" x="2935" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-2" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" value="ОСИМиФС" vertex="1">
+          <mxGeometry height="470" width="5880" x="40" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-97" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-37" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=receive;" value="Проверить целевое использование субсидий согласно соглашению" vertex="1">
+          <mxGeometry height="80" width="180" x="1190" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-98" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-78" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить обеспечение исполнения приоритетных расходов" vertex="1">
+          <mxGeometry height="80" width="200" x="1400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-79" parent="FiubDWQYjvcQJl2FVHAH-2" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;align=left;" value="Сверить с детализированным перечнем расходования субсидий&lt;div&gt;:V/УМБР/ОСИМБ и ФС/Детализированный перечень 567-п АДПИ&lt;br&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22shape%3DpartialRectangle%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bbottom%3D0%3Bright%3D0%3BfillColor%3Dnone%3B%22%20value%3D%22%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D1%86%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B0%D1%81%D1%85%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%2C%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B9%20%26lt%3Bbr%26gt%3B(%D0%BF.%203.3.%20%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D1%8F)%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22160%22%20x%3D%22790%22%20y%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="1570" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-80" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить соблюдение нормативов" vertex="1">
+          <mxGeometry height="80" width="200" x="1400" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-100" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-81" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить наличие правовых актов, устанавливающих требования при предоставлении субсидий ЮЛ" vertex="1">
+          <mxGeometry height="80" width="200" x="1660" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-82" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить включение условий в соглашения с поселениями" vertex="1">
+          <mxGeometry height="80" width="200" x="1660" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-83" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить включение условий по отсутствию задолж. в соглашения с ЮЛ, ИП, физ. лицам&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22points%3D%5B%5B0.25%2C0%2C0%5D%2C%5B0.5%2C0%2C0%5D%2C%5B0.75%2C0%2C0%5D%2C%5B1%2C0.25%2C0%5D%2C%5B1%2C0.5%2C0%5D%2C%5B1%2C0.75%2C0%5D%2C%5B0.75%2C1%2C0%5D%2C%5B0.5%2C1%2C0%5D%2C%5B0.25%2C1%2C0%5D%2C%5B0%2C0.75%2C0%5D%2C%5B0%2C0.5%2C0%5D%2C%5B0%2C0.25%2C0%5D%5D%3Bshape%3Dmxgraph.bpmn.task2%3BwhiteSpace%3Dwrap%3BrectStyle%3Drounded%3Bsize%3D10%3Bhtml%3D1%3Bcontainer%3D1%3Bexpand%3D0%3Bcollapsible%3D0%3BtaskMarker%3Dabstract%3B%22%20value%3D%22%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C%20%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B9%20%D0%B2%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%81%20%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2280%22%20width%3D%22200%22%20x%3D%222290%22%20y%3D%22550%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1940" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-84" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проверить оценку эффективности использования&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22points%3D%5B%5B0.25%2C0%2C0%5D%2C%5B0.5%2C0%2C0%5D%2C%5B0.75%2C0%2C0%5D%2C%5B1%2C0.25%2C0%5D%2C%5B1%2C0.5%2C0%5D%2C%5B1%2C0.75%2C0%5D%2C%5B0.75%2C1%2C0%5D%2C%5B0.5%2C1%2C0%5D%2C%5B0.25%2C1%2C0%5D%2C%5B0%2C0.75%2C0%5D%2C%5B0%2C0.5%2C0%5D%2C%5B0%2C0.25%2C0%5D%5D%3Bshape%3Dmxgraph.bpmn.task2%3BwhiteSpace%3Dwrap%3BrectStyle%3Drounded%3Bsize%3D10%3Bhtml%3D1%3Bcontainer%3D1%3Bexpand%3D0%3Bcollapsible%3D0%3BtaskMarker%3Dabstract%3B%22%20value%3D%22%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C%20%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B9%20%D0%B2%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%81%20%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2280%22%20width%3D%22200%22%20x%3D%222290%22%20y%3D%22550%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="1940" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-107" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-94" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Проанализировать проект на предмет достаточности" vertex="1">
+          <mxGeometry height="80" width="200" x="2240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-95" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="FiubDWQYjvcQJl2FVHAH-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-99" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-101" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-102" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-103" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-51" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="В рабочем порядке сообщить в УФиНП о необходимости внесения корректировок" vertex="1">
+          <mxGeometry height="80" width="180" x="2760" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-69" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Требуется ли&lt;br&gt;доработка заключения?" vertex="1">
+          <mxGeometry height="50" width="50" x="2540" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-74" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Эта версия документа была &lt;br&gt;направлена в СЭДД?" vertex="1">
+          <mxGeometry height="50" width="50" x="2690" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-108" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2565" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-109" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="0.2034" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-111" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2565" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-112" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="0.2108" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-113" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="В рабочем порядке сообщить в УФиНП о необходимости направления в МФиНП официального письма о дополнении заключения" vertex="1">
+          <mxGeometry height="80" width="230" x="2910" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-114" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2715" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-115" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-114" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="0.293" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-139" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-128" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Зафиксировать итоги проверки и анализа в разрезе ОМСУ в таблице соблюдения (несоблюдения) условий" vertex="1">
+          <mxGeometry height="80" width="220" x="3200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-130" parent="FiubDWQYjvcQJl2FVHAH-2" style="shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;Таблица соблюдения (несоблюдения) условий&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="40" x="3290" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-134" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2715" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-135" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-134" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.0582" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-137" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-141" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-138" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;fillColor=#ffcc99;strokeColor=#36393d;" value="Ожидание консолидации заключений" vertex="1">
+          <mxGeometry height="50" width="50" x="3540" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-147" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-140" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Согласовать таблицу соблюдения (несоблюдения) условий порядка у начальника ОСИМБиФС" vertex="1">
+          <mxGeometry height="80" width="210" x="3700" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-154" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-206" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4285" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-142" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Согласовать таблицу соблюдения (несоблюдения) условий у начальника управления межбюджетного регулирования" vertex="1">
+          <mxGeometry height="80" width="210" x="4180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-148" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-149" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-148" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="0.1274" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-151" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-155" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-151" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="0.0259" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-146" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Согласовано?" vertex="1">
+          <mxGeometry height="50" width="50" x="3980" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-150" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Внести правки согласно замечаниям" vertex="1">
+          <mxGeometry height="60" width="190" x="3910" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-152" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3805" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-159" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-153" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Согласовано?" vertex="1">
+          <mxGeometry height="50" width="50" x="4470" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-156" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4495" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-157" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-156" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.876" y="2" as="geometry">
+            <mxPoint x="-2" y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-167" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-168" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-167" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Нет" vertex="1">
+          <mxGeometry relative="1" x="-0.0832" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-158" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Выявлена ли проблема&lt;br&gt;достижения уровня средней&lt;br&gt;заработной платы?&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="50" x="4640" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-163" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4865" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-161" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Передать информацию в работу управление&amp;nbsp;бюджетной политики в сфере обеспечения деятельности органов власти" vertex="1">
+          <mxGeometry height="80" width="210" x="4760" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-164" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4665" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-165" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-164" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="0.3315" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-173" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-174" connectable="0" parent="FiubDWQYjvcQJl2FVHAH-173" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Да" vertex="1">
+          <mxGeometry relative="1" x="-0.3412" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-166" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Выявлены ли нарушения?&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="50" x="5000" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-169" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-176" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="FiubDWQYjvcQJl2FVHAH-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-178" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-170" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Инициировать процедуру возврата средств/мер принуждения" vertex="1">
+          <mxGeometry height="80" width="140" x="5140" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-172" parent="FiubDWQYjvcQJl2FVHAH-2" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" value="Разделы 7 и 8 Соглашения" vertex="1">
+          <mxGeometry height="40" width="130" x="5230" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-180" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="FiubDWQYjvcQJl2FVHAH-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-177" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Контроль устранения нарушений/возврата средств" vertex="1">
+          <mxGeometry height="80" width="140" x="5360" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-179" parent="FiubDWQYjvcQJl2FVHAH-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#ffcccc;strokeColor=#36393d;" value="Отчетность принята и обработана" vertex="1">
+          <mxGeometry height="50" width="50" x="5630" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ym_aVpd8XWVlKV5XNST-1" parent="FiubDWQYjvcQJl2FVHAH-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="420" width="840" x="1380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ym_aVpd8XWVlKV5XNST-2" parent="FiubDWQYjvcQJl2FVHAH-2" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" value="Заполнение таблицы&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;«&lt;/span&gt;Соблюдение условий&lt;span style=&quot;text-align: left;&quot;&gt;»&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="2240" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ym_aVpd8XWVlKV5XNST-3" edge="1" parent="FiubDWQYjvcQJl2FVHAH-2" source="9Ym_aVpd8XWVlKV5XNST-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1.001;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" target="9Ym_aVpd8XWVlKV5XNST-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-27" edge="1" parent="1" source="FiubDWQYjvcQJl2FVHAH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-38" edge="1" parent="1" source="FiubDWQYjvcQJl2FVHAH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-67" edge="1" parent="1" source="FiubDWQYjvcQJl2FVHAH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-110" edge="1" parent="1" source="FiubDWQYjvcQJl2FVHAH-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="FiubDWQYjvcQJl2FVHAH-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2900" y="-595" />
+              <mxPoint x="1117" y="-595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-126" edge="1" parent="1" source="FiubDWQYjvcQJl2FVHAH-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2260" y="-540" />
+              <mxPoint x="2260" y="-400" />
+              <mxPoint x="1343" y="-400" />
+            </Array>
+            <mxPoint x="1343" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-127" edge="1" parent="1" source="FiubDWQYjvcQJl2FVHAH-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FiubDWQYjvcQJl2FVHAH-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-144" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=0;fillColor=none;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="50" width="5880" x="40" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-207" parent="FiubDWQYjvcQJl2FVHAH-144" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Начальник управления межбюджетного регулирования МФиНП НСО" vertex="1">
+          <mxGeometry height="30" width="430" x="2725" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-162" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=0;fillColor=none;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="40" width="5880" x="40" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-209" parent="FiubDWQYjvcQJl2FVHAH-162" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Управление&amp;nbsp;бюджетной политики в сфере обеспечения деятельности органов власти МФиНП НСО" vertex="1">
+          <mxGeometry height="30" width="720" x="2580" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-181" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="Проверка заключений о соблюдении (несоблюдении) администрацией района (мун. и гор. округа) порядка предоставления субсидии на реализацию мероприятий по обеспечению сбалансированности местных бюджетов в рамках государственной программы Новосибирской области &quot;Управление финансами в Новосибирской области" vertex="1">
+          <mxGeometry height="30" width="1280" x="40" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-182" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="Используемые термины и сокращения" vertex="1">
+          <mxGeometry height="30" width="270" x="40" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-183" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=1" value="Заключение о соблюдении (несоблюдении) порядка -&amp;nbsp; &lt;span style=&quot;font-weight: normal;&quot;&gt;заключение о соблюдении (несоблюдении) администрацией района (муниципального и городского округа) порядка предоставления субсидии на реализацию мероприятий по обеспечению сбалансированности местных бюджетов в рамках государственной программы Новосибирской области &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;«&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Управление финансами в Новосибирской области&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;»&lt;/span&gt;&lt;div&gt;УФиНП&lt;span style=&quot;font-weight: 400;&quot;&gt; - управление финансов и налоговой политики районов Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;МФиНП НСО&lt;span style=&quot;font-weight: 400;&quot;&gt; - министерство финансов и налоговой политики Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Приказ МФиНП НСО № 7-НПА от 16.01.2019 &lt;/span&gt;&lt;span style=&quot;font-weight: 400; text-align: center;&quot;&gt;- п&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;риказ МФиНП НСО от 16.01.2019 № 7-НПА «Об отверждении типовых форм соглашений о предоставлении из областного бюджета Новосибирской области субсидии на реализацию мероприятий по обеспечению сбалансированности местных бюджетов в рамках государственной программы Новосибирской области «Управление финансами в Новосибирской области»&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Соглашение&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt; - соглашение&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;о предоставлении из областного бюджета Новосибирской области&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;бюджету ___ района Новосибирской&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;&amp;nbsp;области субсидии на реализацию мероприятий по обеспечению&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;&amp;nbsp;сбалансированности местных бюджетов в рамках государственной п&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;рограммы Новосибирской области&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;«&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;Управление&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;финансами в Новосибирской области&lt;/span&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;»&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: transparent;&quot;&gt;СЭДД -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: 400;&quot;&gt;Государственная информационная система «Система электронного документооборота и делопроизводства Правительства Новосибирской области»&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="1170" x="40" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-184" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="МФиНП.УМБР.ОСИМБиФС.03" vertex="1">
+          <mxGeometry height="30" width="1280" x="40" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-203" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="НПА" vertex="1">
+          <mxGeometry height="30" width="270" x="1430" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="FiubDWQYjvcQJl2FVHAH-204" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="Приказ МФиНП НСО от 16.01.2019 № 7-НПА «Об отверждении типовых форм соглашений о предоставлении из областного бюджета Новосибирской области субсидии на реализацию мероприятий по обеспечению сбалансированности местных бюджетов в рамках государственной программы Новосибирской области «Управление финансами в Новосибирской области»" vertex="1">
+          <mxGeometry height="270" width="1170" x="1430" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

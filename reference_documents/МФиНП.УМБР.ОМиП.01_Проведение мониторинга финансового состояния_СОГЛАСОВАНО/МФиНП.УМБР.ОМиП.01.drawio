@@ -1,0 +1,238 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Страница-1" id="IJ-7CXMbHPdf9dmP31s4">
+    <mxGraphModel dx="1969" dy="2412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1" value="Проведение мониторинга финансового состояния&lt;div&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;МФиНП.УМБР.ОМиП.01&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="730" x="40" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-85" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=0;fillColor=none;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Управление прогнозирования доходов и налоговой политики&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="3400" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-122" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=0;fillColor=none;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Отдел государственного долга&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="3400" x="40" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-1" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" value="ОМиП" vertex="1">
+          <mxGeometry height="520" width="3400" x="41" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-3" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#cdeb8b;strokeColor=#36393d;" value="Принятие&lt;div&gt;бюджетной&lt;/div&gt;&lt;div&gt;отчетности&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="40" y="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-8" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" value="Заполнить 6 форм показателей бюджета путем копирования из Свод-Смарт в таблицу формата. xlsx" vertex="1">
+          <mxGeometry height="95" width="180" x="160" y="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-10" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" value="Проверить итоговые значения во всех формах расчета показателей" vertex="1">
+          <mxGeometry height="95" width="180" x="459" y="99.25" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-13" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-14" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-8" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="250" />
+              <mxPoint x="250" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-12" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Все показатели&lt;div&gt;местных бюджетов&lt;/div&gt;&lt;div&gt;заполнены верно?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="736" y="121.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-16" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-150" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="909" y="147.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-19" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить запрос на публикацию итогового ранжирования на сайте report.mfnso.ru" vertex="1">
+          <mxGeometry height="77.5" width="189" x="1119" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-21" parent="6w6FRn87IMl4z_mxw2cV-1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Запрос направляется на адрес эл. почты webmaster@mfnso.ru&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Ранжирование публикуется в разделе:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;результаты мониторинга финансового состояния местных бюджетов&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="1210" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-23" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="60" />
+              <mxPoint x="1200" y="108" />
+            </Array>
+            <mxPoint x="1200" y="108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-24" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;до 17-го числа мес.,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;след. за кварталом&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="1340" y="172.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-25" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направление в УФ и НП и ДФиНП официальным письмом от министерства результатов мониторинга&amp;nbsp;" vertex="1">
+          <mxGeometry height="77.5" width="189" x="1419" y="108.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-27" parent="6w6FRn87IMl4z_mxw2cV-25" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;до 18-го числа мес.,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;след. за кварталом&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="160" y="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-26" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-33" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=receive;" value="Свод обоснований от УФ и НП и ДФиНП по МО которые попали в II и IIII группы риска" vertex="1">
+          <mxGeometry height="80" width="250" x="1660" y="106.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-34" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-66" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить в УПДиНП представленные причины от МО по доходной части для анализа на обоснованность" vertex="1">
+          <mxGeometry height="77.5" width="260" x="2199" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-68" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="XM61wsRW1UH2ImqT4RSP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-66" value="По доходной&lt;div&gt;части&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2104.0000000000005" y="122.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-71" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="XM61wsRW1UH2ImqT4RSP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-69" value="По источникам&lt;div&gt;финансирования&lt;/div&gt;&lt;div&gt;дефицита бюджета&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2104.0000000000005" y="172.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-73" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1949" y="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-76" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="XM61wsRW1UH2ImqT4RSP-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2079.0000000000005" y="147.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-79" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1974" y="300" />
+              <mxPoint x="1974" y="300" />
+            </Array>
+            <mxPoint x="2198.9999999999995" y="431.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-129" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2529" y="405.58823529411757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-80" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Анализ представленных причин от МО по расходной части" vertex="1">
+          <mxGeometry height="80" width="180" x="1884" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-82" parent="6w6FRn87IMl4z_mxw2cV-80" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div&gt;В теч. 4 р.д.&lt;/div&gt;&lt;div&gt;с момента получения&lt;/div&gt;&lt;div&gt;информации от&lt;/div&gt;&lt;div&gt;УФиНП и ДФиНП&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53.2258064516129" width="53.2258064516129" x="146" y="45.76999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-69" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" value="Направить в ОГД представленные причины от МО по части источников финансирования дефицита бюджета для анализа на обоснованность" vertex="1">
+          <mxGeometry height="92.5" width="270" x="2199" y="196.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-130" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="2519" y="123.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-131" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-132" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-133" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2619" y="148.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-141" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Сформировать ДЗ на имя министра" vertex="1">
+          <mxGeometry height="80" width="180" x="2630" y="108.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-144" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#ffff88;strokeColor=#36393d;" value="Министр согласовал&lt;div&gt;докладную записку?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="2860" y="123.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-145" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-141" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2885" y="235" />
+              <mxPoint x="2720" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-146" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-148" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#ffcccc;strokeColor=#36393d;" value="Мониторинг финансового&lt;div&gt;состояния местных бюджетов&lt;/div&gt;&lt;div&gt;в Новосибирской области&lt;/div&gt;&lt;div&gt;завершен&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="3240" y="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-149" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="XM61wsRW1UH2ImqT4RSP-10" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-150" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Сформировать итоговое ранжирование МО по группам риска (от I до III группы)" vertex="1">
+          <mxGeometry height="80" width="180" x="869" y="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-152" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-153" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-2" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-3" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="6w6FRn87IMl4z_mxw2cV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="147.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-5" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=complex;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="2079" y="122.75" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-6" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div&gt;В теч. 4 р.д.&lt;/div&gt;&lt;div&gt;с момента получения&lt;/div&gt;&lt;div&gt;информации от УМБР&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="2371" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-10" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Исполнение рекомендаций указанных в докладной записке" vertex="1">
+          <mxGeometry height="80" width="180" x="2980" y="107.75" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-11" edge="1" parent="6w6FRn87IMl4z_mxw2cV-1" source="XM61wsRW1UH2ImqT4RSP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-16" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div&gt;В теч. 4 р.д.&lt;/div&gt;&lt;div&gt;с момента получения&lt;/div&gt;&lt;div&gt;информации от УМБР&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="1763" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-17" parent="6w6FRn87IMl4z_mxw2cV-1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div&gt;В теч. 4 р.д.&lt;/div&gt;&lt;div&gt;с момента получения&lt;/div&gt;&lt;div&gt;информации от УМБР&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="2240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-126" edge="1" parent="1" source="6w6FRn87IMl4z_mxw2cV-69" style="dashed=1;dashPattern=8 4;endArrow=block;endFill=0;startArrow=block;startFill=1;endSize=6;startSize=4;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.666;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-122" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2030" y="270" as="sourcePoint" />
+            <mxPoint x="2377" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-127" edge="1" parent="1" source="6w6FRn87IMl4z_mxw2cV-66" style="dashed=1;dashPattern=8 4;endArrow=block;endFill=0;startArrow=block;startFill=1;endSize=6;startSize=4;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2582" y="-160" as="sourcePoint" />
+            <mxPoint x="2440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6w6FRn87IMl4z_mxw2cV-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=1" value="Используемые термины и сокращения:&lt;div&gt;МО &lt;span style=&quot;font-weight: normal;&quot;&gt;- муниципальное образование&lt;/span&gt;&lt;/div&gt;&lt;div&gt;УФ и НП &lt;span style=&quot;font-weight: normal;&quot;&gt;- управление финансов и налоговой политики районов Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ДФиНП&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;- департамент финансов и налоговой политики мэрии города Новосибирска&lt;/span&gt;&lt;/div&gt;&lt;div&gt;УПДиНП &lt;span style=&quot;font-weight: normal;&quot;&gt;- у&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-weight: 400;&quot;&gt;правление прогнозирования доходов и налоговой политики министерства финансов и налоговой политики Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ОГД &lt;span style=&quot;font-weight: normal;&quot;&gt;- отдел государственного долга министерства финансов и налоговой политики Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;УМБР &lt;span style=&quot;font-weight: normal;&quot;&gt;- управление межбюджетного регулирования министерства финансов и налоговой политики Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ДЗ &lt;span style=&quot;font-weight: normal;&quot;&gt;- Докладная записка&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="840" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-12" parent="1" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=0;fillColor=none;whiteSpace=wrap;spacingTop=57;" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Управление финансов и налоговой политики районов Новосибирской области&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;и&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Департамент финансов и налоговой политики мэрии города Новосибирска&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="3400" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-14" edge="1" parent="1" source="6w6FRn87IMl4z_mxw2cV-25" style="dashed=1;dashPattern=8 4;endArrow=block;endFill=0;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.445;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="XM61wsRW1UH2ImqT4RSP-12" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1503" y="160" as="sourcePoint" />
+            <mxPoint x="1500" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-15" edge="1" parent="1" source="XM61wsRW1UH2ImqT4RSP-12" style="dashed=1;dashPattern=8 4;endArrow=block;endFill=0;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=0.526;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-33" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1871" y="250" as="sourcePoint" />
+            <mxPoint x="1870" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-20" parent="1" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;В приложении к ДЗ&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Итоговое ранжирование&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Заполненные формы по всем показателям&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="2716" y="-36" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-21" edge="1" parent="1" source="XM61wsRW1UH2ImqT4RSP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6w6FRn87IMl4z_mxw2cV-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XM61wsRW1UH2ImqT4RSP-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=1" value="НПА:&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Порядок проведения мониторинга финансового состояния местных бюджетов в Новосибирской области от 16.04.2020&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="1320" x="880" y="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,69 @@
+<BPMN_Logical_Structure>
+    <FlowElement id="startEvent" name="Представление проекта правового акта">
+        <LaneSet>
+            <Lane id="lane1" name="Разработчик проекта"/>
+            <Lane id="lane2" name="Юридическая служба"/>
+            <Lane id="lane3" name="Правовое управление"/>
+        </LaneSet>
+    </FlowElement>
+    <FlowElement id="task1" name="Представление проекта правового акта в юридическую службу">
+        <LaneRef>lane1</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow1" sourceRef="startEvent" targetRef="task1"/>
+    <ExclusiveGateway id="exclusiveGateway1" name="Согласование проекта правовым управлением">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow2" sourceRef="task1" targetRef="exclusiveGateway1"/>
+    <FlowElement id="task2" name="Согласование проекта правовым управлением">
+        <LaneRef>lane3</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow3" sourceRef="exclusiveGateway1" targetRef="task2" name="Да"/>
+    <ExclusiveGateway id="exclusiveGateway2" name="Согласование проекта правовым управлением">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow4" sourceRef="exclusiveGateway1" targetRef="exclusiveGateway2" name="Нет"/>
+    <FlowElement id="task3" name="Регистрация проекта в Журнале входящих документов">
+        <LaneRef>lane1</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow5" sourceRef="exclusiveGateway2" targetRef="task3"/>
+    <ExclusiveGateway id="exclusiveGateway3" name="Экспертиза проектов правовых актов, разрабатываемых министерством финансов и налоговой политики Новосибирской области">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow6" sourceRef="task3" targetRef="exclusiveGateway3"/>
+    <FlowElement id="task4" name="Размещение проекта НПА на независимую антикоррупционную экспертизу">
+        <LaneRef>lane1</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow7" sourceRef="exclusiveGateway3" targetRef="task4"/>
+    <ExclusiveGateway id="exclusiveGateway4" name="Проведение экспертизы">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow8" sourceRef="task4" targetRef="exclusiveGateway4"/>
+    <FlowElement id="task5" name="Правовая экспертиза">
+        <LaneRef>lane2</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow9" sourceRef="exclusiveGateway4" targetRef="task5"/>
+    <ExclusiveGateway id="exclusiveGateway5" name="Антикоррупционная экспертиза (только в отношении проектов НПА)">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow10" sourceRef="task5" targetRef="exclusiveGateway5"/>
+    <FlowElement id="task6" name="Юридико-техническая экспертиза">
+        <LaneRef>lane2</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow11" sourceRef="exclusiveGateway5" targetRef="task6"/>
+    <ExclusiveGateway id="exclusiveGateway6" name="Лингвистическая экспертиза">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow12" sourceRef="task6" targetRef="exclusiveGateway6"/>
+    <FlowElement id="task7" name="Фиксация хода ведения экспертизы">
+        <LaneRef>lane2</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow13" sourceRef="exclusiveGateway6" targetRef="task7"/>
+    <ExclusiveGateway id="exclusiveGateway7" name="Направление проекта НПА на согласование в прокуратуру НСО">
+        <LaneRef>lane2</LaneRef>
+    </ExclusiveGateway>
+    <SequenceFlow id="flow14" sourceRef="task7" targetRef="exclusiveGateway7"/>
+    <FlowElement id="endEvent" name="Завершение процесса экспертизы правовых актов">
+        <LaneRef>lane2</LaneRef>
+    </FlowElement>
+    <SequenceFlow id="flow15" sourceRef="exclusiveGateway7" targetRef="endEvent"/>
+</BPMN_Logical_Structure>
